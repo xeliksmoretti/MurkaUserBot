@@ -15,6 +15,8 @@ They can be found [here](https://murka.ssniper1.ml).
 ### Donations
 You can support us at:
 [QIWI](https://qiwi.com/n/SSNIPER1)
+
+
 [CryptoBot Ton](t.me/CryptoBot?start=IVxKNsPzeAZI)
 
 ### Support
