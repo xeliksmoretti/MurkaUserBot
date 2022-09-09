@@ -24,3 +24,4 @@ We also have a dedicated Telegram support group. Got any doubts or issues while 
 
 [MUB Channel](https://t.me/MurkaUserBot "Telegram")
  
+[MUB NEWS](https://t.me/murkauserbotnews "Telegram")
