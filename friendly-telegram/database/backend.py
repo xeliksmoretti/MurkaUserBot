@@ -63,7 +63,7 @@ class CloudBackend():
             if not self._data_already_exists:
                 self._data_already_exists = True
                 return (await self._client(CreateChannelRequest(f"murka-{self._me.user_id}-database",
-                                                                "// Don't touch", megagroup=True))).chats[0]
+                                                                "// Don't touch. Group created for database", megagroup=True))).chats[0]
             else:
                 return await self._find_data_channel()
 
