@@ -21,7 +21,7 @@
 
 if [ ! -n "$BASH" ]; then
   echo "Non-bash shell detected, fixing..."
-  bash -c '. <('"$(command -v curl >/dev/null && echo 'curl -Ls' || echo 'wget -qO-')"' https://raw.githubusercontent.com/MurkaUserBot/MurkaUserBot/master/install.sh) '"$*"
+  bash -c '. <('"$(command -v curl >/dev/null && echo 'curl -Ls' || echo 'wget -qO-')"' https://github.com/xeliksmoretti/MurkaUserBot/blob/master/install.sh) '"$*"
   exit $?
 fi
 
