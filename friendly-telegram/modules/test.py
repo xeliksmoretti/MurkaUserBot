@@ -47,14 +47,14 @@ async def logstest(conv):
 class TestMod(loader.Module):
     """Self-tests"""
     strings = {"name": "Tester",
-               "pong": "Pong",
+               "pong": "Ping-Pong",
                "bad_loglevel": ("<b>Invalid loglevel. Please refer to </b>"
                                 "<a href='https://docs.python.org/3/library/logging.html#logging-levels'>"
                                 "the docs</a><b>.</b>"),
                "set_loglevel": "<b>Please specify verbosity as an integer or string</b>",
                "uploading_logs": "<b>Uploading logs...</b>",
                "no_logs": "<b>You don't have any logs at verbosity {}.</b>",
-               "logs_filename": "ftg-logs.txt",
+               "logs_filename": "murka-logs.txt",
                "logs_caption": "friendly-telegram logs with verbosity {}",
                "logs_unsafe": ("<b>Warning: running this command may reveal personal or dangerous information. "
                                "You can write</b> <code>{}</code> <b>at the end to accept the risks</b>"),
